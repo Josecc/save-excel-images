@@ -4,6 +4,7 @@ A small python script to traverse an excel column for image urls and save them.
 # Quick Start
 You need:
 * Python 3.4.*
+* pandas python library
 * This repo
 * Excel file with image urls
 
