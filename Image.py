@@ -10,4 +10,4 @@ class Image():
     def download(self):
         if not os.path.exists('./images/'):
             os.makedirs('./images/')
-        urllib.request.urlretrieve(self.imageURL, "images/" + self.imageURL.split('/')[-1])
+        urllib.request.urlretrieve(self.imageURL, "images/" + self.imageURL.split('/')[-1] + ".png")
