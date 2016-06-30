@@ -9,7 +9,7 @@ class Excel():
         self.fileName = self.__getFile(fileName)
 
     def read(self, columnName=None):
-        df = pd.read_excel(self.fileName, "PatentImageTest")
+        df = pd.read_excel(self.fileName)
         if columnName is None:
             imageURLs = df.as_matrix()
         else:
